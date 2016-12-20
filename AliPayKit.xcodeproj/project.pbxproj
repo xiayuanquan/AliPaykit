@@ -37,6 +37,8 @@
 		E4D7DDB61E0910AF00FD06EB /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D7DDB51E0910AF00FD06EB /* CoreMotion.framework */; };
 		E4D7DDB81E09121000FD06EB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D7DDB71E09121000FD06EB /* libc++.tbd */; };
 		E4D7DDBA1E09122300FD06EB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D7DDB91E09122300FD06EB /* libz.tbd */; };
+		E4D7DDC11E092FAF00FD06EB /* demo1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E4D7DDBF1E092FAF00FD06EB /* demo1.jpeg */; };
+		E4D7DDC21E092FAF00FD06EB /* demo2.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D7DDC01E092FAF00FD06EB /* demo2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +187,8 @@
 		E4D7DDB51E0910AF00FD06EB /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		E4D7DDB71E09121000FD06EB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		E4D7DDB91E09122300FD06EB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E4D7DDBF1E092FAF00FD06EB /* demo1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo1.jpeg; sourceTree = "<group>"; };
+		E4D7DDC01E092FAF00FD06EB /* demo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo2.png; sourceTree = "<group>"; };
 		F5B4AFD9A4E9639051B3A121 /* Pods-AliPayKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliPayKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliPayKit/Pods-AliPayKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -272,6 +276,7 @@
 		E4D7DCEE1E090A8F00FD06EB /* AliPayKit */ = {
 			isa = PBXGroup;
 			children = (
+				E4D7DDBE1E092FAF00FD06EB /* source */,
 				E4D7DD271E090ADA00FD06EB /* Lib */,
 				E4D7DD221E090ADA00FD06EB /* Classes */,
 				E4D7DCEF1E090A8F00FD06EB /* Supporting Files */,
@@ -470,6 +475,15 @@
 			path = payHelper;
 			sourceTree = "<group>";
 		};
+		E4D7DDBE1E092FAF00FD06EB /* source */ = {
+			isa = PBXGroup;
+			children = (
+				E4D7DDBF1E092FAF00FD06EB /* demo1.jpeg */,
+				E4D7DDC01E092FAF00FD06EB /* demo2.png */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -580,8 +594,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4D7DCFF1E090A8F00FD06EB /* LaunchScreen.storyboard in Resources */,
+				E4D7DDC21E092FAF00FD06EB /* demo2.png in Resources */,
 				E4D7DCFC1E090A8F00FD06EB /* Assets.xcassets in Resources */,
 				E4D7DD321E090BB100FD06EB /* AlipaySDK.bundle in Resources */,
+				E4D7DDC11E092FAF00FD06EB /* demo1.jpeg in Resources */,
 				E4D7DCFA1E090A8F00FD06EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
